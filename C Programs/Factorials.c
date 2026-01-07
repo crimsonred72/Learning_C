@@ -3,7 +3,6 @@
 int main()
   {
      int no;
-    int a;
      int factorial(int);
      printf("Enter the Value: ");
      scanf("%d",&no);
@@ -24,4 +23,5 @@ int factorial(int n)
      else
      return (n * factorial(n-1));
   }
+
 
